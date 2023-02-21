@@ -1,5 +1,5 @@
 # megaventory-ul
-Display a list of Purchase Orders as links and when someone clicks the order a window pops up with more information about the corresponding Purchase Order.
+Display a list of Purchase Orders as links, when someone clicks the order a window pops up with more information about the corresponding Purchase Order.
 
 ## code
 ```javascript
