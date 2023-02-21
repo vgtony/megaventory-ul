@@ -17,8 +17,8 @@ const ul = document.createElement('ul');
 Each 'li' must display some information, in our case PurchaseOrderTypeAbbreviation and PurchaseOrderNo, for each purchase order inside the JSON file.
 In this part of the code the 'ul', 'li' and 'a' elements were created. 
 As the 'li' and 'a' elements are needed more times, they were created inside a forEach loop as many times as Purchase Orders exist in the JSON file. 
-And then the 'a' element was appended in the 'li' element and the 'li' element in the 'ul' element.
-In fewer words, for each purchase order a link was created in an unordered list list.
+And then the 'a' element was appended in the 'li' element ,and the 'li' element in the 'ul' element.
+In fewer words, for each purchase order a link was created in an unordered list.
 
 ```javascript
  link.addEventListener('click', () => {
@@ -26,8 +26,8 @@ In fewer words, for each purchase order a link was created in an unordered list 
         const popup = window.open('', 'Purchase Order Details', windowFeatures);
         popup.document.body.innerHTML = '';
  ```
-After the list is created, the links will display in a new window additional information for the Purchase Orders.
-With the above code when the 'a' element is clicked a popup window opens with the additional information.
+After the list is created, the links will display in a new window some additional information for the Purchase Orders.
+The above code shows that when the 'a' element is clicked a popup window opens with the additional information.
 The additional informations will be:
 - PurchaseOrderAddress
 - PurchaseOrderContactPerson
@@ -94,7 +94,7 @@ And the table data must be appended in the same order as the table headers were 
           poDetailsTableRow.appendChild(poDetailsTableRowTotalAmount);
           poDetailsTable.appendChild(poDetailsTableRow);
 ```
-And this concludes the list creation, the Purchases Orders being clickable links and the window popup informations.
+And this concludes the list creation, the Purchases Orders being clickable links and the window popup information.
 
 Thanks for reading the code explanation,
 Tony
